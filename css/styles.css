@@ -98,7 +98,16 @@ header nav ul {
     {
         flex-direction: column;
     }
+
+form input, textarea {
+    margin: 2px 0;
 }
+form select {
+    margin: 0; 
+}
+}
+
+
 
 a {
     transition: background-color .3s, color .3s; 
